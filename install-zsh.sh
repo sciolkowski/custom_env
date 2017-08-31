@@ -9,4 +9,5 @@ mv PowerlineSymbols.otf ~/.fonts/
 mkdir -p .config/fontconfig/conf.d
 fc-cache -vf ~/.fonts/
 mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
-cp /home/${USER}/prepare-env/.zshrc /home/${USER}/.
+cp /home/${USER}/custom_env/.zshrc /home/${USER}/.
+chsh -s /bin/zsh
